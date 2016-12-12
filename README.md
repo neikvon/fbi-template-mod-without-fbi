@@ -1,6 +1,25 @@
 # Template for js module and node app
 
-**This branch only works with FBI v3.0.0+**
+## With FBI
+```bash
+# only works with FBI v3.0.0+
+$ fbi build
+$ fbi serve
+```
+
+## Without FBI
+```bash
+$ node fbi/build
+$ node fbi/serve
+
+# You can't 'fbi atm'
+# You can't 'fbi init [this]'
+```
+
+## Make your choice
+
+------
+------
 
 > 模版主要定位：兼容node v6+的 **npm模块**、**node应用**
 >
