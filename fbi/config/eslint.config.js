@@ -1,8 +1,6 @@
-// ctx.nodeModulesPath = ctx.options.NODE_MODULE_PATH
-
 module.exports = {
   include: ['./src/**/*.js'],
-  // extends: ctx.nodeModulesPath + 'eslint-config-airbnb-base',
+  extends: ctx.options.NODE_MODULES_PATH + 'eslint-config-airbnb-base',
   extends: 'eslint-config-airbnb-base',
   env: {
     node: true
